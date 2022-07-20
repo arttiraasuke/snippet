@@ -39,14 +39,3 @@ class CatLoader: Service() {
         return null
     }
 }
-
-
-    /*
-    fun loadImage():Bitmap {
-
-        val fullBitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream())
-        val ratio = fullBitmap.width.toDouble() / fullBitmap.height
-        val scaledBitmap = Bitmap.createScaledBitmap(fullBitmap, (800*ratio).toInt(),800, false)
-        return  scaledBitmap
-    }
-     */
