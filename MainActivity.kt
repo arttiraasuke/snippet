@@ -60,11 +60,4 @@ class MainActivity : AppCompatActivity() {
         myAdapter.notifyDataSetChanged()
     }
 
-
-    /*private suspend fun loadImageSuspended(): Bitmap {
-        return withContext(Dispatchers.IO){
-            myAdapter.loadImage()
-        }
-    }*/
-
 }
